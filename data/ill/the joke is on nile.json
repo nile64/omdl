@@ -2,7 +2,7 @@
     "id": 109278300,
     "name": "the joke is on nile",
     "author": "Soap",
-    "creators": "Soap",
+    "creators": ["Soap"],
     "showcase": "https://www.youtube.com/watch?v=ISTl28wKSXc",
     "percentToQualify": 0,
     "password": "Free Copy",
