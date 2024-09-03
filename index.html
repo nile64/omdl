@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>OMDL</title>
+        <title>OneMoreDemonlist</title>
 
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
         <link rel="icon" href="/list_icon.png" />
@@ -37,12 +37,15 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>OMDL</h2>
+                <h2>OneMoreDemonlist</h2>
                 <p>v1.0.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">List</span>
+                </router-link>
+                <router-link class="nav__tab" to="/">
+                    <span class="type-label-lg">Impossible List</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">Leaderboard</span>
