@@ -6,7 +6,7 @@
     padding-top: 4px;
     border-bottom: 4px solid transparent;
     display: flex;
-    align-items: center;
+    align-items: right;
     padding-inline: 0.5rem;
     transition: border-color 100ms ease;
 }
