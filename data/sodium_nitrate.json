@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=zkUKeWt4lHs",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "beef",
+            "link": "https://www.youtube.com/watch?v=s-r4zDl2Vvs",
+            "percent": 81,
+            "hz": 240
         }
     ]
 }
