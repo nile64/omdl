@@ -1,5 +1,5 @@
 .nav {
-    display: flex;
+    display: flex-end;
     column-gap: 2rem;
 }
 .nav .nav__tab {
