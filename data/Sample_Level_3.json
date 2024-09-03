@@ -1,24 +1,30 @@
 {
     "id": 57436521,
-    "name": "Sample Level 3",
-    "author": "Different Publisher",
-    "creators": ["Solo_Creator"],
-    "verifier": "Solo_Creator",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": "100",
-    "password": "46290",
+    "name": "Sodium Nitrate",
+    "author": "Gp0",
+    "creators": ["Gp0"],
+    "verifier": "Gp0",
+    "verification": "https://youtu.be/qreH2PxXo88",
+    "percentToQualify": "70",
+    "password": "None",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "bean",
+            "link": "https://youtu.be/CDy3p63wqvk",
             "percent": 100,
-            "hz": 360
+            "hz": 240
         },
         {
-            "user": "Sample_Victor_2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Themeatballking",
+            "link": "https://www.youtube.com/watch?v=rbrPPv25dsU",
             "percent": 100,
-            "hz": 120
+            "hz": 240
+        },
+        {
+            "user": "Poqqers",
+            "link": "https://www.youtube.com/watch?v=zkUKeWt4lHs",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
