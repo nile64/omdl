@@ -19,7 +19,7 @@
 .nav .nav__actions {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: flex-end;
 }
 .nav .nav__actions .nav__icon {
@@ -30,7 +30,7 @@
     border-radius: 50%;
     cursor: pointer;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: center;
     transition: background-color 100ms ease;
 }
