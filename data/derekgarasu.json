@@ -8,6 +8,11 @@
     "percentToQualify": 47,
     "password": "None",
     "records": [
-       
+       {
+        "user": "heavy gaming",
+           "link:" "https://youtube.com/watch?v=bAApHGrle_g",
+           "percent": 100,
+           "hz": 150
+       }
     ]
 }
