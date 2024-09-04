@@ -8,6 +8,12 @@
     "percentToQualify": 48,
     "password": "None",
     "records": [
-       
+       {
+            "user": "Gp0",
+            "link": "https://youtu.be/YFAiHUu8DgY",
+            "percent": 100,
+            "hz": 240
+      }
+
     ]
 }
