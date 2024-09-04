@@ -61,9 +61,9 @@ header {
 }
 header .logo {
     justify-self: end;
-    align-self: left;
+    align-self: center;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 1rem;
 }
 header .nav {
