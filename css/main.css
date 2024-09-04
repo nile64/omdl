@@ -67,7 +67,6 @@ header .logo {
     gap: 1rem;
 }
 header .nav {
-    justify-self: end;
     flex: 1;
 }
 
