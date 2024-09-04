@@ -48,7 +48,7 @@ main {
 
 header {
     display: flex;
-    padding-inline: calc(0vw - 0rem);
+    /*padding-inline: calc(25vw - 10rem);*/
     height: 4rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
