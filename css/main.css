@@ -48,8 +48,7 @@ main {
 
 header {
     display: flex;
-    /*padding-inline: calc(25vw - 10rem);*/
-    padding-inline: 10rem, 0rem;
+    padding-inline: calc(25vw - 10rem);
     height: 4rem;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
@@ -62,7 +61,7 @@ header {
 }
 header .logo {
     justify-self: end;
-    align-self: center;
+    align-self: left;
     display: flex;
     align-items: flex-end;
     gap: 1rem;
