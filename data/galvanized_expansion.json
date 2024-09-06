@@ -19,6 +19,12 @@
         "link": "https://www.youtube.com/watch?v=kUHOyI80YOA",
         "percent": 100,
         "hz": 240
+        },
+        {
+        "user": "Salmon",
+        "link": "https://www.youtube.com/watch?v=YcUDR_o-0Xw",
+        "percent": 52,
+        "hz": 60
         }
     ]
 }
