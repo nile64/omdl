@@ -1,4 +1,5 @@
- "id": 94695837 ,
+{
+    "id": 94695837 ,
     "name": "Cancun",
     "author": "SmokinOnExPack",
     "creators": ["SmokinOnExPack"],
@@ -7,3 +8,6 @@
     "percentToQualify": 39,
     "password": "Free To Copy",
     "records": [
+
+    ]
+}
