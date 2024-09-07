@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=QVMvkmVr8co",
             "percent": 100,
             "hz": 240
+        },
+        {
+           "user": "cataclysm guy",
+            "link": "https://youtu.be/VT4azzmcy8Q",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
