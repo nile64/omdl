@@ -8,6 +8,11 @@
     "percentToQualify": "0",
     "password": "Free To Copy",
     "records": [
-        
+        {
+            "user": "nile64",
+            "link": "https://www.youtube.com/watch?v=g2JHKsO0kRA",
+            "percent": 2.63,
+            "hz": 240
+        }
     ]
 }

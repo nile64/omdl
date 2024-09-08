@@ -5,7 +5,7 @@
     "creators": ["Lani"],
     "verifier": "[IMPOSSIBLE; NO VERIFIER]",
     "verification": "https://youtu.be/J4qbMQkk-9g?si=UZBnXrGhIeaZuNHe",
-    "percentToQualify": "1",
+    "percentToQualify": "0",
     "password": "Free To Copy",
     "records": [
         {
@@ -13,6 +13,12 @@
             "link": "https://drive.google.com/file/d/1wYxYoCiaOr_3Ase2qikZO6QUpE2U7GHd/view?usp=sharing",
             "percent": 4.23,
             "hz": 360
+        },
+        {
+            "user": "nile64",
+            "link": "https://youtu.be/zIs06tj86Fc",
+            "percent": 2.02,
+            "hz": 240
         }
     ]
 }
