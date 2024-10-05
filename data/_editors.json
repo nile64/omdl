@@ -11,17 +11,22 @@
     },
     {
         "role": "helper",
-        "name": "check the server idk",
-        "link": "https://discord.gg/zUdf7MkYn9"
+        "name": "CurtaGD",
+        "link": "https://www.youtube.com/@CurtaGD"
     },
     {
-        "role": "trial",
-        "name": "check the server idk",
-        "link": "https://discord.gg/zUdf7MkYn9"
+        "role": "helper",
+        "name": "TheRealWolfClaw",
+        "link": "https://www.youtube.com/channel/UCDpTTulgNV4KAwpagtfXd3w"
     },
     {
         "role": "dev",
         "name": "nile64",
         "link": "https://www.youtube.com/@nile64"
+    },
+    {
+        "role": "dev",
+        "name": "cataclysm guy",
+        "link": "https://www.youtube.com/@cataclysmguy"
     }
 ]
