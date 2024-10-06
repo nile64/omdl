@@ -1,0 +1,18 @@
+{
+    "id": 109998873,
+    "name": "One More TOD",
+    "author": "Lani",
+    "creators": ["Lani"],
+    "verifier": "Hykre",
+    "verification": "https://www.youtube.com/watch?v=HhLrxmDZI5o",
+    "percentToQualify": 70,
+    "password": "Free Copy",
+    "records": [
+        {
+           "user": "GremlinGD",
+            "link": "https://www.youtube.com/watch?v=rUrNs7MGb48",
+            "percent": 100,
+            "hz": 240
+       }
+    ]
+}
