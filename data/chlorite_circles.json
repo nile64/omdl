@@ -8,6 +8,11 @@
     "percentToQualify": 52,
     "password": "Free Copy",
     "records": [
-       
+        {
+            "user": "cataclysm guy",
+            "link": "https://youtu.be/VArJSnHmc2A",
+            "percent": 100,
+            "hz": 240
+          }
     ]
 }
