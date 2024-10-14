@@ -8,6 +8,11 @@
     "percentToQualify": 69,
     "password": "Free Copy",
     "records": [
-       
+        {
+            "user": "tod182",
+             "link": "https://youtu.be/RnPJh1ImkdA?si=R-qJjpXCl40Zn9-6",
+             "percent": 100,
+             "hz": 60
+        }
     ]
 }
