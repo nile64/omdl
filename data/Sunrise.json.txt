@@ -1,0 +1,12 @@
+{
+    "id":  110771299,
+    "name": "Sunrise",
+    "author": "SiphonGMD",
+    "creators": ["MiniKey, Correspondence, CurtaGD, AverageGD, cataclysm guy"],
+    "verifier": "cataclysm guy",
+    "verification": "https://youtu.be/CAU60qEvgYY",
+    "percentToQualify": "76",
+    "password": "Free To Copy",
+    "records": [
+    ]
+}
