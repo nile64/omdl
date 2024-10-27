@@ -8,6 +8,11 @@
     "percentToQualify": 70,
     "password": "1065",
     "records": [
-       
+        {
+            "user": "GremlinGD",
+             "link": "https://www.youtube.com/watch?v=_EYIpsRo06M",
+             "percent": 100,
+             "hz": 240
+        }
     ]
 }
