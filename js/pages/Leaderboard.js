@@ -115,5 +115,5 @@ export async function resetLeaderboard() {
     store.leaderboard.leaderboard = leaderboard;
     store.leaderboard.err = err;
     // Hide loading spinner
-    this.loading = false;
+    store.leaderboard.loading = false;
 }
