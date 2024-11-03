@@ -1,5 +1,6 @@
 import { round, score } from './score.js';
 import { resetList } from './pages/List.js';
+import { resetLeaderboard } from './pages/Leaderboard.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
@@ -129,4 +130,5 @@ export async function changeList(){
     theList = document.getElementById("list_dropdown").value;
     console.log("theList: " + theList.toString() + ", dropdown value: " + document.getElementById("list_dropdown").value.toString());
     resetList();
+    resetLeaderboard();
 }

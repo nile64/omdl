@@ -2,6 +2,7 @@ import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
+import { store } from '../main.js';
 
 export default {
     components: {
@@ -98,13 +99,21 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
-        this.err = err;
-        // Hide loading spinner
-        this.loading = false;
+        store.leaderboard = this;
+        await resetLeaderboard();
     },
     methods: {
         localize,
     },
 };
+
+export async function resetLeaderboard() {
+    store.leaderboard.loading = true;
+
+    const [leaderboard, err] = await fetchLeaderboard();
+
+    store.leaderboard.leaderboard = leaderboard;
+    store.leaderboard.err = err;
+    // Hide loading spinner
+    this.loading = false;
+}
