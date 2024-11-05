@@ -13,6 +13,12 @@
              "link": "https://www.youtube.com/watch?v=_EYIpsRo06M",
              "percent": 100,
              "hz": 240
+        },
+        {
+            "user": "Lani",
+            "link": "https://www.youtube.com/watch?v=wtO_E2oKwaU&t=70s",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
