@@ -8,6 +8,11 @@
     "percentToQualify": 60,
     "password": "Free Copy",
     "records": [
-
+        {
+            "user": "Lani",
+            "link": "https://www.youtube.com/watch?v=wtO_E2oKwaU&t=313s",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
