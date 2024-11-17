@@ -8,6 +8,11 @@
     "percentToQualify": 65,
     "password": "Free to Copy",
     "records": [
-        
+        {
+            "user": "Gremlin",
+             "link": "https://www.youtube.com/watch?v=VZQCQsAO0Co",
+             "percent": 100,
+             "hz": "CBF"
+        }
     ]
 }
