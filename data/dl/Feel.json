@@ -3,16 +3,16 @@
     "name": "Feel",
     "author": "cataclysmguy",
     "creators": ["Correspondence"],
-    "verifier": "cataclysm guy",
-    "verification": "https://youtu.be/GO9-mBZwXbQ",
+    "verifier": "Gremlin",
+    "verification": "https://www.youtube.com/watch?v=cqfBve7shts",
     "percentToQualify": "51",
     "password": "Free To Copy",
     "records": [
         {
-            "user": "Lani",
-            "link": "https://youtu.be/ugztqK_4GAM?t=22",
-            "percent": 100,
-            "hz": 240
-        }
+        "user": "cataclysm guy",
+        "link": "https://youtu.be/iF7cIJ_D0a4",
+        "percent": 100,
+        "hz": "240"
+      }
     ]
 }
