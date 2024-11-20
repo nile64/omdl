@@ -33,25 +33,28 @@
         <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script type="module" src="/js/main.js"></script>
+        <script type="module">
+            import { changeList } from "./js/content.js";
+
+            export function onChangeList(){
+                changeList();
+            }
+
+            window.onChangeList = onChangeList;
+        </script>
     </head>
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>OMDL</h2>
-                <p>v1.2.0</p>
+                <p>v1.3</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">List</span>
                 </router-link>
-                <router-link class="nav__tab" to="/ill">
-                    <span class="type-label-lg">ILL</span>
-                </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">Leaderboard</span>
-                </router-link>
-                <router-link class="nav__tab" to="/illleaderboard">
-                    <span class="type-label-lg">ILL Leaderboard</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
@@ -76,6 +79,10 @@
                         href="https://discord.gg/zUdf7MkYn9"
                         target="_blank"
                         >Submit Record</a>
+                    <select onchange="onChangeList()" class="nav__switch" id="list_dropdown">
+                        <option value="dl">Demonlist</option>
+                        <option value="ill">ILL</option>
+                    </select>
                 </div>
             </nav>
         </header>

@@ -1,0 +1,24 @@
+{
+    "id": 111367663,
+    "name": "Feel",
+    "author": "cataclysmguy",
+    "creators": ["Correspondence"],
+    "verifier": "Gremlin",
+    "verification": "https://www.youtube.com/watch?v=cqfBve7shts",
+    "percentToQualify": "51",
+    "password": "Free To Copy",
+    "records": [
+        {
+        "user": "cataclysm guy",
+        "link": "https://youtu.be/iF7cIJ_D0a4",
+        "percent": 100,
+        "hz": "240"
+      },
+        {
+        "user": "CurtaGD",
+        "link": "https://youtu.be/KYQR02CFM0w",
+        "percent": 80,
+        "hz": "240"
+      }
+    ]
+}

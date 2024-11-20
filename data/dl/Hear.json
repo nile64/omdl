@@ -1,0 +1,18 @@
+{
+    "id": 112100605,
+    "name": "Hear",
+    "author": "CurtaGD",
+    "creators": ["CurtaGD"],
+    "verifier": "CurtaGD",
+    "verification": "https://www.youtube.com/watch?v=vNvbKYSY99c&embeds_referring_euri=https%3A%2F%2Ftgdl.pages.dev%2F&source_ve_path=Mjg2NjY",
+    "percentToQualify": 65,
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "Gremlin",
+             "link": "https://www.youtube.com/watch?v=VZQCQsAO0Co",
+             "percent": 100,
+             "hz": "CBF"
+        }
+    ]
+}

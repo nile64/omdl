@@ -1,17 +1,20 @@
 import { round, score } from './score.js';
+import { resetList } from './pages/List.js';
+import { resetLeaderboard } from './pages/Leaderboard.js';
 
 /**
  * Path to directory containing `_list.json` and all levels
  */
+var theList = "dl"
 const dir = '/data';
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`);
+    const listResult = await fetch(`${dir}/${theList}/_list.json`);
     try {
         const list = await listResult.json();
         return await Promise.all(
             list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+                const levelResult = await fetch(`${dir}/${theList}/${path}.json`);
                 try {
                     const level = await levelResult.json();
                     return [
@@ -38,7 +41,7 @@ export async function fetchList() {
 
 export async function fetchEditors() {
     try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
+        const editorsResults = await fetch(`${dir}/${theList}/_editors.json`);
         const editors = await editorsResults.json();
         return editors;
     } catch {
@@ -121,4 +124,11 @@ export async function fetchLeaderboard() {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+export async function changeList(){
+    theList = document.getElementById("list_dropdown").value;
+    console.log("theList: " + theList.toString() + ", dropdown value: " + document.getElementById("list_dropdown").value.toString());
+    resetList();
+    resetLeaderboard();
 }
