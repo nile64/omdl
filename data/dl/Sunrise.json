@@ -19,6 +19,12 @@
         "link": "https://www.youtube.com/watch?v=rPSCWnKEFqI",
         "percent": 100,
         "hz": "240"
-      }
+      },
+        {
+            "user": "SSB0",
+            "link": "https://youtu.be/3iBpjkXsjTc?si=syzlIclbx5e110Pp",
+            "percent": 100,
+            "hz": "CBF-240"
+        }
     ]
 }
