@@ -8,6 +8,11 @@
     "percentToQualify": "64",
     "password": "Free To Copy",
     "records": [
-
+{
+        "user": "bunni",
+        "link": "https://youtu.be/qkQpRhpWXWY",
+        "percent": 100,
+        "hz": "CBF"
+      }
     ]
 }
