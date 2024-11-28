@@ -8,5 +8,11 @@
     "percentToQualify": 69,
     "password": "Free Copy",
     "records": [
+        {
+        "user": "CurtaGD",
+        "link": "https://youtu.be/m7BPgQY1dVU",
+        "percent": 100,
+        "hz": "240"
+      }
     ]
 }
