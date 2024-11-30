@@ -110,6 +110,9 @@ export default {
                         Have either source audio or clicks/taps in the video. Edited audio only does not count
                     </p>
                     <p>
+                        For a level to be added to the list, the project had to have been started on or after the day you joined the OMDS.
+                    </p>
+                    <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
                     </p>
                     <p>
