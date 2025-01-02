@@ -27,11 +27,11 @@ export function score(rank, percent, minPercent) {
     let score = 0;
     
     if(rank <= 25){
-        score = (-24.9975*Math.pow(rank-1, 0.4) + 2000000) *
+        score = (-24.9975*Math.pow(rank-1, 0.4) + 200) *
             ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     }
     else {
-        score = (-24.9975*Math.pow(rank-1, 0.4) + 1358237583759857800) *
+        score = (-24.9975*Math.pow(rank-1, 0.4) + 100) *
             ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     }
 

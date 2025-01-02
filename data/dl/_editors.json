@@ -1,7 +1,47 @@
 [
     {
         "role": "owner",
-        "name": "Goofball II",
-        "link": "https://www.youtube.com"
+        "name": "nile64",
+        "link": "https://www.youtube.com/@nile64"
+    },
+    {
+        "role": "admin",
+        "name": "Gp0",
+        "link": "https://www.youtube.com/@RealGp0"
+    },
+{
+    "role": "helper",
+    "name": "cataclysm guy",
+    "link": "https://www.youtube.com/@cataclysmguy"
+},
+{
+    "role": "helper",
+    "name": "SuperSalmon35",
+    "link": "https://www.youtube.com/@SuperSalmonGD"
+},
+    {
+        "role": "helper",
+        "name": "CurtaGD",
+        "link": "https://www.youtube.com/@CurtaGD"
+    },
+    {
+        "role": "helper",
+        "name": "TheRealWolfClaw",
+        "link": "https://www.youtube.com/channel/UCDpTTulgNV4KAwpagtfXd3w"
+    },
+    {
+    "role": "helper",
+    "name": "MiniKey",
+    "link": "https://www.youtube.com/@minikey1692"
+    },
+    {
+        "role": "dev",
+        "name": "nile64",
+        "link": "https://www.youtube.com/@nile64"
+    },
+    {
+        "role": "dev",
+        "name": "cataclysm guy",
+        "link": "https://www.youtube.com/@cataclysmguy"
     }
 ]
