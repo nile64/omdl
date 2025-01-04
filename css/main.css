@@ -1,3 +1,4 @@
+main.dark,
 :root {
     --color-background: white;
     --color-on-background: black;
@@ -17,10 +18,10 @@ header.dark {
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
     --color-primary: #6e1515;
+    --color-primary: #4150d4;
     --color-primary-disabled: #1f213c;
     --color-on-primary: white;
     --color-error: #de0000;
-    --color-on-error: white;
 }
 
 html,
@@ -59,8 +60,9 @@ header {
         padding-inline: 0;
     }
 }
-header .logo {
-    justify-self: end;
+header .logo, .title {
+    justify-self: left;
+    transform: translateX(40px);
     align-self: center;
     display: flex;
     align-items: flex-end;
@@ -68,6 +70,7 @@ header .logo {
 }
 header .nav {
     flex: 1;
+    align-self: center;
 }
 
 main {
@@ -94,3 +97,21 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+.listbtn, .packsbtn, .leaderboardbtn, .roulettebtn {
+    padding-top: 4px;
+    border-bottom: 4px solid transparent;
+    display: flex;
+    align-items: center;
+    padding-inline: 0.5rem;
+  }
+
+.selectedbtn {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.5s ease-in-out;
+    outline: none;
+  }
+  .listbtn:hover, .packsbtn:hover, .leaderboardbtn:hover, .roulettebtn:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.5s ease-in-out;
+    outline: none;
+  }

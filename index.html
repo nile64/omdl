@@ -46,17 +46,19 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>OMDL</h2>
-                <p>v1.3</p>
+                <h2 id="title" class="title" class="logo">OMDL</h2>
             </div>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
+                <router-link class="listbtn" id="listbtn" to="/" active-class="selectedbtn">
                     <span class="type-label-lg">List</span>
                 </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
+                <router-link class="leaderboardbtn" id="leaderboardbtn" to="/leaderboard" active-class="selectedbtn">
                     <span class="type-label-lg">Leaderboard</span>
                 </router-link>
-                <router-link class="nav__tab" to="/roulette">
+                <router-link class="packsbtn" id="packsbtn" to="/packs" active-class="selectedbtn">
+                    <span class="type-label-lg">Packs</span>
+                </router-link>
+                <router-link class="roulettebtn" id="roulettebtn" to="/roulette" active-class="selectedbtn">
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
                 <div class="nav__actions">
