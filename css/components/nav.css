@@ -1,6 +1,9 @@
 .nav {
     display: flex;
+    position: absolute;
     column-gap: 2rem;
+    width: 87%;
+    left: 12%;
 }
 .nav .nav__tab {
     padding-top: 4px;
