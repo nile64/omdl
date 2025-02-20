@@ -1,1 +1,13 @@
+{
+    "id": 10000000000000000000000000,
+    "name": "bart",
+    "author": "skibidi",
+    "creators": ["skibidi","skibidi toilet"],
+    "verifier": "skibidi",
+    "verification": "https://www.youtube.com/watch?v=XMCYuUStCT0",
+    "percentToQualify": 60,
+    "password": "Free Copy",
+    "records": [
 
+    ]
+}
